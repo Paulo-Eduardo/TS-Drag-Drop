@@ -24,7 +24,6 @@ class Project {
   ) { }
 }
 
-// TODO test
 type Listener<T> = (items: T[]) => void;
 
 class State<T> {
@@ -35,7 +34,6 @@ class State<T> {
   }
 }
 
-// TODO test 123
 class ProjectState extends State<Project> {
   private projects: Project[] = [];
   private static instance: ProjectState;
