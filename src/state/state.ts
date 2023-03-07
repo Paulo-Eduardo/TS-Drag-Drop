@@ -1,4 +1,4 @@
-import { Listener } from "../model/listener.js";
+import { Listener } from "../model/listener";
 
 export default class State<T> {
 	protected listeners: Listener<T>[] = [];

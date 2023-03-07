@@ -1,7 +1,7 @@
-import Component from "./base.js";
-import { projectState } from "../state/project-state.js";
-import autobind from "../utils/autobind.js";
-import validate from "../utils/validate.js";
+import Component from "./base";
+import { projectState } from "../state/project-state";
+import autobind from "../utils/autobind";
+import validate from "../utils/validate";
 
 export default class ProjectInput extends Component<
 	HTMLDivElement,
